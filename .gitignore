@@ -1,0 +1,4 @@
+.neoconf.json
+*.log
+.env
+.env.*
