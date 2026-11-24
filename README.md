@@ -4,7 +4,7 @@ Configuração do Neovim Baseada no LazyVim.
 
 ## 1. Requisitos
 
-### Pacotes do sistema
+### Pacotes do sistema (Arch Linux)
 
 ```bash
 sudo pacman -Syu
@@ -15,13 +15,13 @@ sudo pacman -S -needed neovim git base-devel ripgrep fd tree-sitter-cli nodejs n
 
 ### Fonte
 
-NerdFont para icones
+NerdFont para ícones
 
 ```bash
 sudo pacman -S ttf-jetbrains-mono-nerd
 ```
 
-1. Mude nas configuracoes do seu terminal a fonte.
+1. Mude nas configurações do seu terminal a fonte.
 
 ## C, Rust e Assembly
 
@@ -31,7 +31,7 @@ rustup default stable
 rustup componenet add rust-analyzer
 ```
 
-## 2. Instalacao
+## 2. Instalação
 
 ### Processo de backup da sua pasta atual
 
@@ -42,13 +42,13 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-### Clone do repositorio
+### Clone do repositório
 
 ```bash
 git clone https://github.com/Psykotropic/nvim-config ~/.config/nvim
 ```
 
-### Execucao
+### Execução
 
 ```bash
 nvim
