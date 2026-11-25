@@ -28,7 +28,7 @@ sudo pacman -S ttf-jetbrains-mono-nerd
 ```bash
 sudo pacman -S -needed gcc clang gdb valgrind make bear
 rustup default stable
-rustup componenet add rust-analyzer
+rustup component add rust-analyzer
 ```
 
 ## 2. Instalação
